@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: 321c2f5a02c66fe40af1f4faed3fd806
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy-PhotoRoom.png-PhotoRoom_8
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 578
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4459959b81ef543b102240537cf5e9
+      internalID: -134083740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-PhotoRoom.png-PhotoRoom_9
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 579
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f83cd301c3e94d46b7432f07f73cfec
+      internalID: -1136120942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-PhotoRoom.png-PhotoRoom_10
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 579
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c29af70d289494da6d6a0a1ff284e1
+      internalID: -2101043797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-PhotoRoom.png-PhotoRoom_11
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 579
+        width: 77
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d411408bd7a2846a01fbaf4168a3e2
+      internalID: -1882038269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: enemy-PhotoRoom.png-PhotoRoom_12
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 579
+        width: 79
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44aa1ce321adc4349bb0aeb389efa0d8
+      internalID: -1978522445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      enemy-PhotoRoom.png-PhotoRoom_0: -1583212141
+      enemy-PhotoRoom.png-PhotoRoom_1: 2048500126
+      enemy-PhotoRoom.png-PhotoRoom_10: -2101043797
+      enemy-PhotoRoom.png-PhotoRoom_11: -1882038269
+      enemy-PhotoRoom.png-PhotoRoom_12: -1978522445
+      enemy-PhotoRoom.png-PhotoRoom_13: -968895183
+      enemy-PhotoRoom.png-PhotoRoom_14: -423966677
+      enemy-PhotoRoom.png-PhotoRoom_15: 1862716487
+      enemy-PhotoRoom.png-PhotoRoom_16: 591823136
+      enemy-PhotoRoom.png-PhotoRoom_17: 1646655722
+      enemy-PhotoRoom.png-PhotoRoom_18: -717695799
+      enemy-PhotoRoom.png-PhotoRoom_19: 1908381166
+      enemy-PhotoRoom.png-PhotoRoom_2: -1702114041
+      enemy-PhotoRoom.png-PhotoRoom_20: 1343918939
+      enemy-PhotoRoom.png-PhotoRoom_21: 797233117
+      enemy-PhotoRoom.png-PhotoRoom_22: 2131170535
+      enemy-PhotoRoom.png-PhotoRoom_23: 214297678
+      enemy-PhotoRoom.png-PhotoRoom_24: -1838428240
+      enemy-PhotoRoom.png-PhotoRoom_25: 438298938
+      enemy-PhotoRoom.png-PhotoRoom_26: -1461983561
+      enemy-PhotoRoom.png-PhotoRoom_27: 1394200539
+      enemy-PhotoRoom.png-PhotoRoom_28: 523509827
+      enemy-PhotoRoom.png-PhotoRoom_29: 1212488052
+      enemy-PhotoRoom.png-PhotoRoom_3: -1313147069
+      enemy-PhotoRoom.png-PhotoRoom_30: -1259079095
+      enemy-PhotoRoom.png-PhotoRoom_31: -804734191
+      enemy-PhotoRoom.png-PhotoRoom_32: -1563010695
+      enemy-PhotoRoom.png-PhotoRoom_33: -1972645938
+      enemy-PhotoRoom.png-PhotoRoom_34: -1686812532
+      enemy-PhotoRoom.png-PhotoRoom_35: 521553179
+      enemy-PhotoRoom.png-PhotoRoom_36: -133687054
+      enemy-PhotoRoom.png-PhotoRoom_37: 1177569270
+      enemy-PhotoRoom.png-PhotoRoom_38: -83353863
+      enemy-PhotoRoom.png-PhotoRoom_39: 326162464
+      enemy-PhotoRoom.png-PhotoRoom_4: -495375502
+      enemy-PhotoRoom.png-PhotoRoom_40: 778990691
+      enemy-PhotoRoom.png-PhotoRoom_41: -291080720
+      enemy-PhotoRoom.png-PhotoRoom_42: 446549359
+      enemy-PhotoRoom.png-PhotoRoom_43: 572113671
+      enemy-PhotoRoom.png-PhotoRoom_44: 1797273436
+      enemy-PhotoRoom.png-PhotoRoom_45: 336175416
+      enemy-PhotoRoom.png-PhotoRoom_46: -2073092357
+      enemy-PhotoRoom.png-PhotoRoom_47: 1289185133
+      enemy-PhotoRoom.png-PhotoRoom_48: -1601864182
+      enemy-PhotoRoom.png-PhotoRoom_5: 244864337
+      enemy-PhotoRoom.png-PhotoRoom_6: 368911095
+      enemy-PhotoRoom.png-PhotoRoom_7: 2124067757
+      enemy-PhotoRoom.png-PhotoRoom_8: -134083740
+      enemy-PhotoRoom.png-PhotoRoom_9: -1136120942
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
