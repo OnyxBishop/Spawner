@@ -408,7 +408,7 @@ PrefabInstance:
     - target: {fileID: 8201226291675105616, guid: df20a223ddb2a1341a00f49717649cd2, type: 3}
       propertyPath: _template
       value: 
-      objectReference: {fileID: 8305041701856602852, guid: 34dfaf540c4890b4c8c8eb0364ca4c34, type: 3}
+      objectReference: {fileID: -8686218600613369367, guid: 34dfaf540c4890b4c8c8eb0364ca4c34, type: 3}
     - target: {fileID: 8201226291675105616, guid: df20a223ddb2a1341a00f49717649cd2, type: 3}
       propertyPath: _spawnPoint
       value: 
@@ -1465,7 +1465,7 @@ PrefabInstance:
     - target: {fileID: 8201226291675105616, guid: df20a223ddb2a1341a00f49717649cd2, type: 3}
       propertyPath: _template
       value: 
-      objectReference: {fileID: 8305041701856602852, guid: 34dfaf540c4890b4c8c8eb0364ca4c34, type: 3}
+      objectReference: {fileID: -8686218600613369367, guid: 34dfaf540c4890b4c8c8eb0364ca4c34, type: 3}
     - target: {fileID: 8201226291675105616, guid: df20a223ddb2a1341a00f49717649cd2, type: 3}
       propertyPath: _spawnPoint
       value: 

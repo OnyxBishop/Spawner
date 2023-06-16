@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public class SpawnEnemy : MonoBehaviour
 {
-    [SerializeField] private GameObject _template;
+    [SerializeField] private Enemy _template;
     [SerializeField] private Transform _spawnPoint;
 
     public void Spawn()
