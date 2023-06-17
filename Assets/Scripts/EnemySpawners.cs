@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Dynamic;
 using UnityEngine;
 
 public class EnemySpawners : MonoBehaviour
 {
-    [SerializeField] private SpawnEnemy[] _spawners;
+    [SerializeField] private Enemy _template;
 
     public bool IsTimeOver => _elapsedTime >= _spawnTime;
 
-    private SpawnEnemy _currentSpawner;
+    private SpawnPoint[] _spawnPoints;
 
     private float _spawnTime = 2f;
     private float _elapsedTime = 0f;
@@ -16,9 +17,9 @@ public class EnemySpawners : MonoBehaviour
 
     private void Start()
     {
-        _currentSpawner = _spawners[_index];
+        _spawnPoints = GetComponentsInChildren<SpawnPoint>();
 
-        StartCoroutine(CreateDuringTime());   
+        StartCoroutine(CreateDuringTime());
     }
 
     private IEnumerator CreateDuringTime()
@@ -26,8 +27,8 @@ public class EnemySpawners : MonoBehaviour
         while (IsTimeOver == false)
         {
             _elapsedTime += Time.deltaTime;
-           
-            SpawnDuringTime();
+
+            Spawn();
 
             yield return null;
         }
@@ -35,16 +36,14 @@ public class EnemySpawners : MonoBehaviour
 
     private void ChangeSpawner()
     {
-        _index = (_index + 1) % _spawners.Length;
-
-        _currentSpawner = _spawners[_index];
+        _index = (_index + 1) % _spawnPoints.Length;
     }
 
-    private void SpawnDuringTime()
+    private void Spawn()
     {
         if (IsTimeOver == true)
         {
-            _currentSpawner.Spawn();
+            Instantiate(_template, _spawnPoints[_index].transform.position, Quaternion.identity);
 
             ChangeSpawner();
 

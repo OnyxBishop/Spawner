@@ -31,7 +31,7 @@ public class EnemyMovement : MonoBehaviour
         float moveLeft = -1f;
         float moveRight = 1f;
 
-        float direction = _enemy.transform.position.x > _target.transform.position.x   ?  moveLeft: moveRight;
+        float direction = _enemy.transform.position.x > _target.transform.position.x  ?  moveLeft: moveRight;
 
         if (direction == moveLeft && _isFlipped == false)
         {
