@@ -7,12 +7,10 @@ public class EnemySpawners : MonoBehaviour
 {
     [SerializeField] private Enemy _template;
 
-    public bool IsTimeOver => _elapsedTime >= _spawnTime;
-
     private SpawnPoint[] _spawnPoints;
 
+    private bool _isSpawning = true;
     private float _spawnTime = 2f;
-    private float _elapsedTime = 0f;
     private int _index = 0;
 
     private void Start()
@@ -24,13 +22,11 @@ public class EnemySpawners : MonoBehaviour
 
     private IEnumerator CreateDuringTime()
     {
-        while (IsTimeOver == false)
+        while (_isSpawning == true)
         {
-            _elapsedTime += Time.deltaTime;
+            yield return new WaitForSeconds(_spawnTime);
 
             Spawn();
-
-            yield return null;
         }
     }
 
@@ -41,13 +37,8 @@ public class EnemySpawners : MonoBehaviour
 
     private void Spawn()
     {
-        if (IsTimeOver == true)
-        {
-            Instantiate(_template, _spawnPoints[_index].transform.position, Quaternion.identity);
+        Instantiate(_template, _spawnPoints[_index].transform.position, Quaternion.identity);
 
-            ChangeSpawner();
-
-            _elapsedTime = 0f;
-        }
+        ChangeSpawner();
     }
 }

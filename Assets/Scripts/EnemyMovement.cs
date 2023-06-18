@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-[RequireComponent(typeof(Enemy))]
 public class EnemyMovement : MonoBehaviour
 {
-    private Enemy _enemy;
     private DisableTrigger _target;
     private SpriteRenderer _spriteRenderer;
 
@@ -16,7 +14,6 @@ public class EnemyMovement : MonoBehaviour
 
     private void Awake()
     {
-        _enemy = GetComponent<Enemy>();
         _spriteRenderer = GetComponentInChildren<SpriteRenderer>();
         _target = FindObjectOfType<DisableTrigger>();
     }
@@ -31,7 +28,7 @@ public class EnemyMovement : MonoBehaviour
         float moveLeft = -1f;
         float moveRight = 1f;
 
-        float direction = _enemy.transform.position.x > _target.transform.position.x  ?  moveLeft: moveRight;
+        float direction = transform.position.x > _target.transform.position.x  ?  moveLeft: moveRight;
 
         if (direction == moveLeft && _isFlipped == false)
         {
@@ -39,6 +36,6 @@ public class EnemyMovement : MonoBehaviour
             _spriteRenderer.flipX = true;
         }
 
-         _enemy.transform.Translate(_speed * direction * Time.deltaTime, 0, 0); 
+         transform.Translate(_speed * direction * Time.deltaTime, 0, 0); 
     }
 }
