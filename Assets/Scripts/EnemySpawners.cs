@@ -22,9 +22,11 @@ public class EnemySpawners : MonoBehaviour
 
     private IEnumerator CreateDuringTime()
     {
+        WaitForSeconds waitForSeconds = new(_spawnTime);
+
         while (_isSpawning == true)
         {
-            yield return new WaitForSeconds(_spawnTime);
+            yield return waitForSeconds;
 
             Spawn();
         }
