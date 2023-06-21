@@ -32,15 +32,10 @@ public class EnemySpawners : MonoBehaviour
         }
     }
 
-    private void ChangeSpawner()
-    {
-        _index = (_index + 1) % _spawnPoints.Length;
-    }
-
     private void Spawn()
     {
         Instantiate(_template, _spawnPoints[_index].transform.position, Quaternion.identity);
 
-        ChangeSpawner();
+        _index = (_index + 1) % _spawnPoints.Length;
     }
 }
